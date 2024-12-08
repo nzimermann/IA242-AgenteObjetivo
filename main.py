@@ -12,7 +12,6 @@ def exibir(matriz):
     plt.imshow(matriz, "gray")
     plt.nipy_spectral()
     plt.plot([posAPAy], [posAPAx], marker="o", color="r", ls="")
-    # plt.show(block=False)
     plt.draw()
     plt.pause(0.5)
     plt.clf()
@@ -143,7 +142,6 @@ def checkObj(sala: np.ndarray) -> bool:
 def agenteObjetivo(
     percepcao: tuple, objObtido: bool, posObjetivo: tuple[int, int]
 ) -> str:
-    # percepcao = ((posAPAx, posAPAy), status)
     status = percepcao[1]
     if status == "sujo":
         return "aspirar"

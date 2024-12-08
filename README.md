@@ -4,6 +4,16 @@ Um agente projetado para simular um aspirador de pó inteligente, seu objetivo �
 
 ![IA242-ObjectiveOrientedAgentWorking](https://github.com/user-attachments/assets/426fb92a-7a4c-4f79-bb35-f94fa9e0ce3a)
 
+Ações possíveis:
+- Movimentar (Esquerda)
+- Movimentar (Direita)
+- Movimentar (Acima)
+- Movimentar (Abaixo)
+- Aspirar
+
+Cada ação equivale a um ponto no código.
+
+
 ## Rodando o projeto
 
 É possível rodar o código utilizando uma plataforma web como [Jupyter Notebook](https://jupyter.org/) ou [Google Colab](https://colab.google/)
